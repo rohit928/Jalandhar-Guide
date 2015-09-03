@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton18"
+        android:src="@drawable/back"
+        android:onClick="Backs"
+
+
+
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView16"
+        android:src="@drawable/top5"
+        android:layout_alignBottom="@+id/imageButton18"
+        android:layout_toRightOf="@+id/imageButton18"
+        android:layout_toEndOf="@+id/imageButton18" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#ffff9671"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView16">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/imageView16"
+            android:layout_alignEnd="@+id/imageView16">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Deputy Commissioner's Office"
+                android:id="@+id/textView46"
+                android:background="#ff98ff77"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/textView49"
+                android:layout_alignEnd="@+id/textView49" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView17"
+                android:src="@drawable/p"
+                android:layout_marginTop="50dp"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sh.Prince Dhawan"
+                android:id="@+id/textView44"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sub Divisional Megistrate"
+                android:id="@+id/textView48"
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView18"
+                android:src="@drawable/m"
+                android:layout_marginTop="130dp"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sh.Mukesh Kalra"
+                android:id="@+id/textView45"
+                android:layout_marginTop="80dp"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Add Deputy Commissioner"
+                android:id="@+id/textView49"
+                android:layout_marginTop="90dp"
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView19"
+                android:src="@drawable/h"
+                android:layout_marginTop="210dp"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sh.Harish Sachdeva"
+                android:id="@+id/textView47"
+                android:layout_marginTop="160dp"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sub Deputy Commissioner"
+                android:id="@+id/textView51"
+                android:layout_marginTop="160dp"
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView20"
+                android:src="@drawable/n"
+                android:layout_marginTop="280dp"
+
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sh.Narendar Parkash"
+                android:id="@+id/textView50"
+                android:layout_marginTop="230dp"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sub Deputy Commissioner"
+                android:id="@+id/textView54"
+                android:layout_marginTop="230dp"
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="State Consumer Disputes Redressal Commision"
+                android:id="@+id/textView53"
+                android:background="#ff98ff77"
+                android:layout_marginTop="340dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/textView49"
+                android:layout_alignEnd="@+id/textView49" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView21"
+                android:src="@drawable/t"
+                android:layout_marginTop="400dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sh.Tilak Raj Parkash"
+                android:id="@+id/textView52"
+                android:layout_marginTop="350dp"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sub Deputy Commissioner"
+                android:id="@+id/textView58"
+                android:layout_marginTop="350dp"
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView23"
+                android:src="@drawable/e"
+                android:layout_marginTop="490dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sh.Endu Mehra"
+                android:id="@+id/textView56"
+                android:layout_marginTop="440dp"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sub Deputy Commissioner"
+                android:id="@+id/textView55"
+                android:layout_marginTop="440dp"
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView25"
+                android:src="@drawable/h"
+                android:layout_marginTop="710dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sh.Hament Kapila"
+                android:id="@+id/textView61"
+                android:layout_marginTop="650dp"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sub Deputy Commissioner"
+                android:id="@+id/textView62"
+                android:layout_marginTop="650dp"
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Add Commissioners District Forum -1"
+                android:id="@+id/textView57"
+                android:background="#ff98ff77"
+                android:layout_marginTop="560dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/textView49"
+                android:layout_alignEnd="@+id/textView49" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView24"
+                android:src="@drawable/r"
+                android:layout_marginTop="630dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sh.Rakesh Bindra"
+                android:id="@+id/textView68"
+                android:layout_marginTop="570dp"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sub Deputy Commissioner"
+                android:id="@+id/textView65"
+                android:layout_marginTop="560dp"
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Consumer Grievance Redressal Forum"
+                android:id="@+id/textView64"
+                android:background="#ff98ff77"
+                android:layout_marginTop="770dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/textView49"
+                android:layout_alignEnd="@+id/textView49" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView27"
+                android:src="@drawable/t"
+                android:layout_marginTop="850dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sh.Tirlok Nath"
+                android:id="@+id/textView59"
+                android:layout_marginTop="800dp"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sub Deputy Commissioner"
+                android:id="@+id/textView60"
+                android:layout_marginTop="790dp"
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView28"
+                android:src="@drawable/p"
+                android:layout_marginTop="930dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sh.Parkash Yadav"
+                android:id="@+id/textView70"
+                android:layout_marginTop="870dp"
+                android:layout_alignTop="@+id/imageView17"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sub Deputy Commissioner"
+                android:id="@+id/textView71"
+                android:layout_marginTop="870dp"
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true" />
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

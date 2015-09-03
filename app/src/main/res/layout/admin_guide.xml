@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffd5c0"
+
+    >
+
+
+
+
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="230dp"
+        android:id="@+id/imageButton5"
+        android:src="@drawable/dirctory"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentTop="true"
+        android:onClick="Directory"
+
+        />
+
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="230dp"
+        android:id="@+id/imageButton6"
+        android:layout_marginLeft="10dp"
+        android:onClick="Holidays"
+        android:src="@drawable/calendar"
+
+        android:layout_above="@+id/imageButton8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="230dp"
+        android:id="@+id/imageButton7"
+        android:src="@drawable/criminal"
+        android:layout_below="@+id/imageButton5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="220dp"
+        android:id="@+id/imageButton8"
+        android:src="@drawable/grivance"
+        android:layout_marginLeft="10dp"
+
+        android:layout_below="@+id/imageButton5"
+        android:layout_toRightOf="@+id/imageButton7"
+       />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton19"
+        android:layout_above="@+id/imageButton6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="Directory"
+        android:src="@drawable/back"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView22"
+        android:src="@drawable/top6"
+        android:layout_marginTop="10dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButton19"
+        android:layout_toEndOf="@+id/imageButton19" />
+
+</RelativeLayout>
+
